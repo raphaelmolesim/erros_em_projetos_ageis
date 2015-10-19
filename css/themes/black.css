@@ -5,6 +5,7 @@
  */
 @import url(../../lib/font/\kgsecondchancessolid/KGSecondChancesSolid.css);
 @import url(../../lib/font/\wolf-in-the-city/wolf-in-the-city.css);
+@import url(../../lib/font/double-feature/DoubleFeature20.css);
 section.has-light-background, section.has-light-background h1, 
 section.has-light-background h2, section.has-light-background h3, 
 section.has-light-background h4, section.has-light-background h5, 
@@ -23,6 +24,53 @@ body {
   font-size: 38px;
   font-weight: normal;
   color: #fff; }
+
+span.terror {
+	font-family: "Double Feature 20", Helvetica, sans-serif;
+}
+
+div.team_member {
+	width: 80px;
+	background-size: 80px 187px;
+	height: 187px;
+	background-image: url('../../img/person.png');
+	float: left;
+}
+
+div.product-owner {
+	width: 80px;
+	height: 187px;
+	background-color: #C60;
+	-webkit-mask-image: url('../../img/person.png');
+	-webkit-mask-size : 80px 187px;
+	float: left;
+}
+
+div.scrum-master {
+	width: 80px;
+	height: 187px;
+	background-color: #390;
+	-webkit-mask-image: url('../../img/person.png');
+	-webkit-mask-size : 80px 187px;
+	float: left;
+}
+
+div.team_configuration {
+	float: left;
+	width: 280px;
+	text-align: left;
+}
+
+div.team_configuration > div {
+	width: 300px;
+	float:left;
+}
+
+.reveal em {
+	font-family: "Wolf In The City", Helvetica, sans-serif;
+	font-size: 80px;
+}
+
 
 ::selection {
   color: #fff;
@@ -315,3 +363,5 @@ body {
 
   text-align: right;
 }
+
+
